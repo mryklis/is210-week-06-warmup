@@ -1,0 +1,5 @@
+import data
+
+DIRECTIONS = data.DIRECTIONS
+
+DIRECTIONS = DIRECTIONS[:-1:'West']
