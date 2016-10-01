@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 """This module explores using lists and arithmetic operations"""
 
+
 def process_data(data):
-    """this function adds the items in a list and then divides by # of items    
+    """this function adds the items in a list and then divides by # of items.
 
     Arguments:
         data (list) = consists of numbers to summed and averaged
@@ -17,8 +18,8 @@ def process_data(data):
         (6, 2.0)
     """
 
-    sum = 0
+    total = 0
     for num in data:
-        sum += num
-        avg = sum/len(data)
-    return sum, float(avg)
+        total += num
+        avg = total/len(data)
+    return total, float(avg)
